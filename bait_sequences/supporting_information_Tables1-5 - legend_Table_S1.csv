@@ -1,0 +1,36 @@
+gene,gene identifier,
+seqname,sequence location,
+Single_copy.Broc_Anan_Tilla.,present in single copy category,output of clustering of transcriptome assemblies
+Low_copy.Broc_Anan_Tilla.,present in low copy category (=<5 copies),output of clustering of transcriptome assemblies
+High_copy.Broc_Anan_Tilla.,present in high copy category (>5 copies),output of clustering of transcriptome assemblies
+Diff_expressed_CAMC3,Significant for differential Expression analysis genes between CAM and C3 species,"de la Harpe et al., 2020"
+pos_selection_CAM_shifts,genes that underwent adaptive protein evolution during C3/CAM transitions,"de la Harpe et al., 2021"
+gene_families_CAMC3,belonging to gene families with putative association to C3 vs CAM phenotype in Tillandsia spp,"de la Harpe et al., 2021"
+Angiosperm_gene,orthologous to Angiosperm353 gene,citation - table 2
+CAM-related_Acomosus_Ming2015,Putative CAM-related genes from pineapple genome assembly,citation - table 2
+stomata_func,putatively associated with stomatal function,citation - table 2
+aquaporin_reg,putatively associated with aquaporin regulation,citation - table 2
+draught_res,putatively associated with drought-resistance,citation - table 2
+markers,"previously used marker in bromeliad phylogenies (phytc, prk, malate synthase, NADH1, PGIC, RBP2, XDH, LEAFY, AGT1, PEPC, PHYA, PHYAE/B)",citation - table 2
+anthocyanin_SI_Ananas,genes regulating anthocyanin biosynthesis and self incompatibility in Ananas,citation - table 2
+circadian_metabolism_Wai2017,genes coding for circadian expression or key roles in metabolism in Ananas,citation - table 2
+malateTransferase_Assimilation_Carbohydrates,"putatively associated with malate transferase in the vacuole, assimilation of inorganic carbon and compartmentalization of carbohydrates",citation - table 2
+fllavonoid_anthocyanin_Pitcairnia_PS,genes orthologous to transcripts encoding for key enzymes in the flavonoid and anthocyanin biosynthesis pathways in Pitcairnia transcriptome,citation - table 2
+pos_sel_portullugo,under positive selection within the portullugo clade (Caryophyllales),citation - table 2
+glucogenesis_glycolysis,putatively associated with glucogenesis and starch synthesis,citation - table 2
+circadian_clock,putatively associated with circadian clock,citation - table 2
+type,"defined as candidate genes, as follows:",
+,1. Stomate opening/ closing genes (SOCG):,
+,1.1 CO2- sensing HIGH LEAF TEMP (HLT),
+,1.2 Abscissic acid signalling,
+,1.3 K+/Ca2+/Cl2+ channels + Na+/H+ anti transporter,
+,1.4 Auxin reponse factor (ARF4),
+,2. Aquaporins,
+,3. V-ATPase,
+,4. Oxygen evolving enhancer (OEE),
+,5. Chloroplasts activity,
+,6.  Drough resistance genes (LEA),
+,7. Mitochondrial pyruvate transporters,
+,09. Circadian clock,
+,10. Glucogenesis specific (day: C3 pathway),
+,11. Glycolysis night C4 malate pathway,
