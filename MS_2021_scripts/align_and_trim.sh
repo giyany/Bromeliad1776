@@ -58,7 +58,7 @@ while read ind; do
 	#convert to bam, keep uniquely mapped reads only, filter by mq>10 & sort
 	samtools view -h -b -q 10 "$ind"_aligned_Acom.sam | samtools sort -o "$ind"_asmq10.bam;
 	#add read group info. This is specific to my data, other users would want to modify
-	java -jar ~/Programs/picard.jar AddOrReplaceReadGroups I="$ind"_asmq10.bam o="$ind"_asmq10rg.bam RGLB=WGD RGPL=illumina RGPU=Lib1 RGSM="$ind" RGID="$ind";
+	java -jar ~/Programs/picard.jar AddOrReplaceReadGroups I="$ind"_asmq10.bam o="$ind"_asmq10rg.bam RGLB=WGD RGPL=illumina RGPU=Angio353 RGSM="$ind" RGID="$ind";
 	#mark duplicates. notice duplicates here are MARKED NOT REMOVED
 	java -jar ~/Programs/picard.jar MarkDuplicates I="$ind"_asmq10rg.bam o="$ind"_asmq10rgd.bam M="$ind"_dup_metrics.txt;
 	#redirect info about alignment into txt report
