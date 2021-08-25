@@ -68,4 +68,4 @@ done < $indlist
 
 # Call variants with freebayes, example (code for cluster computing)
 
-TEMPDIR=/gpfs/data/fs71400/yardeni/Angio353/vcfcall_Ananas/tempdir freebayes-parallel < /gpfs/data/Ananas_resources/Ananas.target.regions.10k.by.cov.LG.only 32 \ --report-monomorphic --use-best-n-alleles 120 --limit-coverage 600 -g 50000 -f pineapple.20150427ץfasta --populations popfile.txt *.bam > Angio353vsAnanas_wmonosites_raw.vcf
+TEMPDIR=/gpfs/data/fs71400/yardeni/Angio353/vcfcall_Ananas/tempdir freebayes-parallel < /gpfs/data/Ananas_resources/Ananas.target.regions.10k.by.cov.LG.only 32 \ --report-monomorphic --use-best-n-alleles 120 --limit-coverage 600 -g 50000 -f pineapple.20150427.fasta --populations popfile.txt *.bam > Angio353vsAnanas_wmonosites_raw.vcf
